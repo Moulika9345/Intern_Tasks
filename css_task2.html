@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css Task3</title>
+    <style>
+      .vert {
+        float:left;
+        border: 7px solid white;
+        margin-right: 30px; 
+      }
+     .vert ul{
+      width:180px;
+      margin-left:5px;
+      list-style-type: none;
+      padding-left:10px;
+      padding-top: 10px;
+      padding-right:10px;
+      border: 1px solid black;
+      }
+     .vert li a{
+        display:block;
+        text-decoration:none;
+        padding:10px;
+        color:blue;
+        background:rgb(108, 197, 226);
+      }
+      .vert li a:hover{
+        background-color:rgb(247, 181, 59);
+        color: white; 
+      }
+      #vertical{
+        background-color:rgb(247, 181, 59);
+        color: white;
+      }
+      .hor {
+        border: 1px solid black;
+        padding-left:10px ; 
+        width: 450px;
+        overflow: hidden;
+      }
+      .hor ul{
+        list-style-type:none;
+        background: lightgrey;
+        width:470px;
+        text-align:center;
+        overflow:hidden;
+        border: 1px solid white;
+        padding:0px;
+      }
+      .hor li a{
+        float:left;
+        border-right:1px solid blue;
+        color:blue;
+        display:block;
+        text-decoration:none;
+        padding :15px 15px;
+        text-align:center;
+      }
+      .hor  li a:hover{
+        background-color:grey;
+        color:white;
+      }
+      #horizontal{
+        background-color:grey;
+        color:white;
+      }
+      h4{
+        margin-left: 10px;
+      }
+  </style>
+</head>
+<body>
+  <h4>Vertical Navigation Bar</h4>
+  <div class="vert">
+    <ul>
+      <li><a href="#" id="vertical">Home</a></li>
+      <li><a href="#">Java</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">Bootstrap</a></li>
+    </ul>
+  </div>
+  <h4>Horizontal Navigation Bar</h4>
+  <div class="hor">
+    <ul>
+      <li><a href="#" id="horizontal">Home</a></li>
+      <li><a href="#">Java</a></li>
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+    </ul>
+  </div>
+</body>
+</html>
